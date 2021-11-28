@@ -39,7 +39,7 @@
 
 - For This You Need JioID Number and Password
 
-[Jio Login Page] (http://jiologin.epizy.com)
+[Jio Login Page] (http://jiologin.unaux.com/)
  
 - `user` = Username / Mobile No.
 - `pass` = Password
