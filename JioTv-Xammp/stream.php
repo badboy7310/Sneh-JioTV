@@ -1,5 +1,5 @@
 <?php
-$p= @file_get_contents("http://localhost/token.php"); # Change This Path According to Your Server and Folder
+$p= @file_get_contents("http://localhost/JioTv-Xammp/token.php"); # Change This Path According to Your Server and Folder
 
 
 # © 2021 Techie Sneh DO NOT EDIT ANYTHING TO KEEP RUNNING
@@ -20,11 +20,11 @@ if(@$_REQUEST["key"]!="")
 "osVersion: 9\r\n" .
 "isott: true\r\n" .
 "languageId: 6\r\n" .
-"uniqueId: 45e59330-ffd8-4c6c-9985-fe89f22232eb\r\n" . # Change uniqueId if you chnaged token
+"uniqueId: e6acaab2-76fb-4dbb-94b6-3534f0163496\r\n" . # Change uniqueId if you chnaged token
 "srno: 200206173037\r\n" .
 "usergroup: tvYR7NSNn7rymo3F\r\n" .
 "channelid: 472\r\n" .
-"ssotoken: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWUiOiI0NWU1OTMzMC1mZmQ4LTRjNmMtOTk4NS1mZTg5ZjIyMjMyZWIiLCJ1c2VyVHlwZSI6IlJJTHBlcnNvbiIsImF1dGhMZXZlbCI6IjQwIiwiZGV2aWNlSWQiOiJjNDMyMTNhOGMzYjljNTAxYzI4MDY1NjRiYzNkNjlhNDkwY2IwZDdiOTM0MzI4MDQ5Mzk1MTU0Mzk3NmViOTM2ZDcxNmZmZTMwYmNjM2UxOWU1MTMzZjNiNTg1MjNiNGY3OGU0YWMxYjFhYzc4MTVjNTNjMTE5MDBkYTM0ZTEwZCIsImp0aSI6IjZiMDQwNDdlLTk4OTgtNDkzOC04M2ZjLTJmMGNiMjBjYzkwYSIsImlhdCI6MTYyMjEyNDkzNn0.VGU9LzWWshG2RAKm6jnAG0CUil7NvkZlWa04jJR8koU\r\n" #Change To Your Details
+"ssotoken: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWUiOiJlNmFjYWFiMi03NmZiLTRkYmItOTRiNi0zNTM0ZjAxNjM0OTYiLCJ1c2VyVHlwZSI6IlJJTHBlcnNvbiIsImF1dGhMZXZlbCI6IjQwIiwiZGV2aWNlSWQiOiI3ZTk5ZGU1Y2JiYjllYjU0NDY3ZGQ5NWY5NzlhOWRhYjQ2ZDdhOTMyMmUxMWNkNTA1MTMxYzUzNDQxYmI0NTVjY2E3ZTY1ZjI0NGQ1YTdmY2M3NGM4ODY3ZTI3YWJjODk0ZjBiYWM0NzEzYzZiNWM3ZWRlNmJjOWI3MmQzYTVmNCIsImp0aSI6IjQ2MjYzZWY1LTMyZjktNGQxMi05MGNiLTA1NGI0ZmQxNmYyYiIsImlhdCI6MTYzODE2NDY5M30.vhz_WVweZhDBbI1hVEnv0jHCpw3GWWyugNJvFlQHHFE\r\n" #Change To Your Details
 	    
     ]
 ];
